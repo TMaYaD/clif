@@ -6,7 +6,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"gopkg.in/ukautz/clif.v0"
+	"github.com/TMaYaD/clif"
 	"io/ioutil"
 )
 

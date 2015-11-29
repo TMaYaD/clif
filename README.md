@@ -1,5 +1,5 @@
-![status](https://api.travis-ci.org/ukautz/clif.svg?branch=v0)
-[![GoDoc](https://godoc.org/gopkg.in/ukautz/clif.v0?status.svg)](http://godoc.org/gopkg.in/ukautz/clif.v0)
+![status](https://api.travis-ci.org/TMaYaD/clif.svg?branch=v0)
+[![GoDoc](https://godoc.org/github.com/TMaYaD/clif?status.svg)](http://godoc.org/github.com/TMaYaD/clif)
 
 
 CLIF - Command line interface framework
@@ -15,7 +15,7 @@ Example
 ```go
 package main
 
-import "gopkg.in/ukautz/clif.v0"
+import "github.com/TMaYaD/clif"
 
 func main() {
 	clif.New("My App", "1.0.0", "An example application").
@@ -58,7 +58,7 @@ Install
 -------
 
 ``` bash
-$ go get gopkg.in/ukautz/clif.v0
+$ go get github.com/TMaYaD/clif
 ```
 
 Getting started
